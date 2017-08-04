@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="TestConnection-Web.config Connection String" description="TestConnection Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:simplemvccruddb.database.windows.net,1433;Initial Catalog=DB;Persist Security Info=False;User ID=meeug;Password=Pass145236;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\lg\\documents\\visual\ studio\ 2017\\Projects\\WebAppCRUD\\WebAppCRUD\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TestConnection']/@connectionString" />
+  </parameter>
+</parameters>
